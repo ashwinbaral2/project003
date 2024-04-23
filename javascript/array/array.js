@@ -15,3 +15,8 @@ console.log(reversedArr); //[2, 5, 3]
 // expected output 352
 let joinedStr = arr.join("");
 console.log(joinedStr); //['253']
+
+//console.log the maximum number of an array
+//expectedd output 5
+let maxNum = Math.max(...arr)
+console.log(maxNum); //5
